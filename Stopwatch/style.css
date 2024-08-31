@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+.stopwatch {
+  text-align: center;
+  background: white;
+  border-radius: 10px;
+  padding: 5vw;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+.time {
+  font-size: 5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.button {
+  font-size: 20px;
+  color: rgb(233, 233, 233);
+  padding: 15px 25px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ;
+}
+
+.button:hover {
+  background-color: #e0e0e0;
+  color: rgb(58, 55, 55);
+}
+
+.button:active{
+  background-color: #6e6e6e;
+}
+
+.start {
+  background-color: rgba(39, 251, 39, 0.857);
+}
+
+.stop {
+  background-color: rgba(243, 206, 1, 0.922);
+}
+
+.reset {
+  background-color: rgba(255, 30, 0, 0.922);
+}
+
