@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div>Tic-Tac-Toe</div>
+        <div>
+          <button class="light-button">
+            <i class="fa-solid fa-toggle-off"></i>
+            <div class="tooltip-text">Turn on Dark mode</div>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <main class="light-mode">
+      <div class="title js-title">
+        <div class="winner-title"></div>
+      </div>
+      <div class="matrix-board">
+        <div class="square 1" id="1"></div>
+        <div class="square 2" id="2"></div>
+        <div class="square 3" id="3"></div>
+        <div class="square 4" id="4"></div>
+        <div class="square 5" id="5"></div>
+        <div class="square 6" id="6"></div>
+        <div class="square 7" id="7"></div>
+        <div class="square 8" id="8"></div>
+        <div class="square 9" id="9"></div>
+      </div>
+      <button class="reset-button">Reset</button>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
