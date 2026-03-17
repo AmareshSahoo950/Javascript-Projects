@@ -1,7 +1,7 @@
 # Live Demo of the Projects 
 
 # Tic-Tac-Toe ->
-  https://tic-tac-toe-game-using-js-by-amaresh.netlify.app
+  https://tic-tac-toe-f0r-fun.netlify.app/
 
 # Rock-Paper-Scissors ->
   https://rock-paper-scissors-game-using-js.netlify.app
